@@ -9,6 +9,7 @@
   <a href="https://streamvault.gg"><img alt="streamvault.gg" src="https://img.shields.io/badge/Live%20product-streamvault.gg-22c55e?style=flat-square" /></a>
   <a href="https://github.com/FusionBrah/StreamVault-website"><img alt="StreamVault repo" src="https://img.shields.io/badge/Code-StreamVault--website-181717?style=flat-square&logo=github&logoColor=white" /></a>
   <a href="https://github.com/FusionBrah/hyperliquid-autotrader"><img alt="Hyperliquid Autotrader repo" src="https://img.shields.io/badge/Code-hyperliquid--autotrader-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/FusionBrah/vyos-dns-manager"><img alt="VyOS DNS Manager repo" src="https://img.shields.io/badge/Code-vyos--dns--manager-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -22,6 +23,10 @@
 **[Hyperliquid Autotrader](https://github.com/FusionBrah/hyperliquid-autotrader)** — a fully mechanical trading bot for Hyperliquid perpetual futures. WebSocket-driven entries and exits (~2s reaction), rule-based signals (RSI, Bollinger Bands, regime detection), ATR trailing stops with profit-locking giveback floors — no AI in the trading loop. Backtest numbers are pinned by a golden-master regression test in CI, so any change that shifts results fails the build.
 
 → [Repo & backtest results](https://github.com/FusionBrah/hyperliquid-autotrader)
+
+**[VyOS DNS Manager](https://github.com/FusionBrah/vyos-dns-manager)** — a web UI for managing DNS A records on VyOS routers, built for IT ops teams who'd rather not hand out router SSH access. FastAPI with server-rendered Jinja2 (no frontend framework), Azure Entra ID SSO with group-based admin roles, CSRF-protected forms, and a syslog audit trail on every change. Fully stateless Docker deployment — no database. MIT licensed.
+
+→ [Repo](https://github.com/FusionBrah/vyos-dns-manager)
 
 ### Stack I reach for
 
