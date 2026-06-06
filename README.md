@@ -8,6 +8,7 @@
 <p align="center">
   <a href="https://streamvault.gg"><img alt="streamvault.gg" src="https://img.shields.io/badge/Live%20product-streamvault.gg-22c55e?style=flat-square" /></a>
   <a href="https://github.com/FusionBrah/StreamVault-website"><img alt="StreamVault repo" src="https://img.shields.io/badge/Code-StreamVault--website-181717?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/FusionBrah/hyperliquid-autotrader"><img alt="Hyperliquid Autotrader repo" src="https://img.shields.io/badge/Code-hyperliquid--autotrader-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
 ---
@@ -17,6 +18,10 @@
 **[StreamVault](https://streamvault.gg)** — a production Twitch VOD archiving SaaS. Automatic stream capture, chat archive, role-based team access, and a self-pruning storage quota. Server-rendered Astro on Cloudflare Workers with Stripe-driven subscriptions, Supabase auth, and Backblaze B2 storage.
 
 → [Repo & technical write-up](https://github.com/FusionBrah/StreamVault-website)
+
+**[Hyperliquid Autotrader](https://github.com/FusionBrah/hyperliquid-autotrader)** — a fully mechanical trading bot for Hyperliquid perpetual futures. WebSocket-driven entries and exits (~2s reaction), rule-based signals (RSI, Bollinger Bands, regime detection), ATR trailing stops with profit-locking giveback floors — no AI in the trading loop. Backtest numbers are pinned by a golden-master regression test in CI, so any change that shifts results fails the build.
+
+→ [Repo & backtest results](https://github.com/FusionBrah/hyperliquid-autotrader)
 
 ### Stack I reach for
 
@@ -40,6 +45,7 @@
 - **Edge-first SSR over SPA wherever it fits.** Astro for marketing + dashboard, React islands only where interactivity earns it.
 - **Database-layer access control.** Postgres RLS on every table in StreamVault; the app and webhook handlers use distinct roles.
 - **Webhooks as the source of truth** for any state that lives in a third party (Stripe subscriptions reconcile into Supabase, never the other way around).
+- **Golden-master testing for anything with money on the line.** The autotrader's 180-day backtest is frozen byte-for-byte in CI — behavior changes must be intentional and re-blessed, never accidental.
 
 ### Get in touch
 
