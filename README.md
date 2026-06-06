@@ -56,7 +56,6 @@
 
 <p>
   <a href="mailto:blake@fusiondigital.dev"><img alt="Email" src="https://img.shields.io/badge/Email-blake%40fusiondigital.dev-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://streamvault.gg"><img alt="streamvault.gg" src="https://img.shields.io/badge/Web-streamvault.gg-22c55e?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
